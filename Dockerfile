@@ -1,4 +1,5 @@
-FROM python:3.6-slim-stretch
+FROM python:3.6
+LABEL maintainer “Marek Dwulit <marek.dwulit@agilebeat.com>”
 
 ## Change from sh to bash
 RUN ls -al /bin/sh \
